@@ -23,15 +23,15 @@ namespace CloudTutorial.Pages
         public async void OnGet()
         {
             // ToDo: handle file list of all .jpg files
-             MyBlob.GetBlob("container", "cloudtutorial/cloudImages/DSCN1669.jpg");
+            // MyBlob.GetBlob("container", "cloudtutorial/cloudImages/DSCN1669.jpg");
 
-            await MyBlob.GetImageBlob( "cloudtutorial/cloudImages/DSCN1669.jpg");
+            //await MyBlob.GetImageBlob( "cloudtutorial/cloudImages/DSCN1669.jpg");
         }
 
         public void saveEm()
         {
             // ToDo: handle file list of all .jpg files c:\cloudimages\
-            MyBlob.CreateAndSaveAzureBlob().Wait();  
+            //MyBlob.CreateAndSaveAzureBlob().Wait();  
         }
     }
 }
